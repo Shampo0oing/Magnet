@@ -1,0 +1,60 @@
+html, body {
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.scale-1 {
+  transform: scale(1.1);
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.text-spaced {
+  letter-spacing: 1px;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.v-text-field__slot {
+  .v-label {
+    letter-spacing: 1px;
+  }
+}
+
+.main-bg {
+  background: url('../redline2.jpg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--v-dark3-base);
+  border-radius: 10px;
+}
